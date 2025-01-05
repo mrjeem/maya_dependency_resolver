@@ -4,7 +4,7 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser(
     prog="Maya Dependency Resolver",
-    description="Resolves dependent maya files in the given maya file.",
+    description="Recursively  resolves dependent maya files in the given maya file.",
 )
 
 parser.add_argument("filepath")
